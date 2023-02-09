@@ -1,10 +1,10 @@
-# Repo for Colab Notebooks
+# List of Colab Notebooks in this repository
 
-**GRU_things:** first notebook about simple gru model\
-**GRU_new_dataset:** second notebook with improved dataset (random-delayed step inputs)\
-**GRU_step_dataset:** third notebook with improved step dataset\
-**GRU_step_dataloader:** fourth notebook with step dataloade\
-**GRU_ramp_dataloader:** fifth notebook with clipped ramp dataloader
+1. *GRU_things:* simple gru model implementation with ones inputs and harmonic signal outputs
+2. *GRU_new_dataset:* improved dataset with random-delayed step inputs
+3. *GRU_step_dataset:* improved step dataset with randomic square/step inputs
+4. *GRU_step_dataloader:* implementatio of dataloader for randomic amplitude square/step inputs
+5. *GRU_ramp_dataloader:* implementation of dataloader for clipped random-delayed ramp inputs
 
 
 # Dynamic Interpolation
@@ -18,21 +18,21 @@
 
     3. TCN (From sequential_things.ipnb repo)
 
-1. Dataset
+2. Dataset
 
-We have to be able to specify different training and testing options.
-All these options should be implemented in a single class.
-Two different objects from the same class:
-    a. A Test Dataset ( with options ABC . . )
-    b. A Train Dataset ( with option DEF . . )
+    We have to be able to specify different training and testing options.
+    All these options should be implemented in a single class.
+    Two different objects from the same class:
+        a. A Test Dataset ( with options ABC . . )
+        b. A Train Dataset ( with option DEF . . )
 
-### Options for dataset class:
+    ### Options for dataset class:
 
     1. Inputs
         1. Step Inputs
         2. Trapezoid Inputs
 
-    1. Amplitudes
+    2. Amplitudes
         1. Random Amplitudes
         2. Fixed Amplitudes
             Specifying a number of fixed amplitudes ("states")
