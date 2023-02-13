@@ -22,8 +22,8 @@
 
     We have to be able to specify different training and testing options.
     All these options should be implemented in a single class.
-    Two different objects from the same class:
-        a. A Test Dataset ( with options ABC . . )
+    Two different objects from the same class:\
+        a. A Test Dataset ( with options ABC . . )\
         b. A Train Dataset ( with option DEF . . )
 
     ### Options for dataset class:
