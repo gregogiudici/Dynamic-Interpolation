@@ -1,4 +1,4 @@
-# List of Colab Notebooks in this repository
+# List of Notebooks in this repository
 
 1. *GRU_things.ipynb:* simple gru model implementation with ones inputs and harmonic signal outputs
 2. *GRU_new_dataset.ipynb:* improved dataset with random-delayed step inputs
