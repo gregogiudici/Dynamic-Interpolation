@@ -1,4 +1,4 @@
-# List of Colab Notebooks in this repository
+# List of Notebooks in this repository
 
 1. *GRU_things.ipynb:* simple gru model implementation with ones inputs and harmonic signal outputs
 2. *GRU_new_dataset.ipynb:* improved dataset with random-delayed step inputs
@@ -22,8 +22,8 @@
 
     We have to be able to specify different training and testing options.
     All these options should be implemented in a single class.
-    Two different objects from the same class:
-        a. A Test Dataset ( with options ABC . . )
+    Two different objects from the same class:\
+        a. A Test Dataset ( with options ABC . . )\
         b. A Train Dataset ( with option DEF . . )
 
     ### Options for dataset class:
@@ -40,5 +40,6 @@
     3. Outputs
         1. Harmonic Series Signal
         2. ADSR? ( * TBD * )
+
 
 
