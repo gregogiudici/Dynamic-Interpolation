@@ -6,7 +6,7 @@
 4. *GRU_step_dataloader.ipynb:* implementatio of dataloader for randomic amplitude square/step inputs
 5. *GRU_ramp_dataloader.ipynb:* implementation of dataloader for clipped random-delayed ramp inputs
 6. *GRU_multishape_dataloader.ipynb:* implementation of dataloader with multi-shape option (ramp or step/square) 
-
+7. *ESN_things.ipynb:* simple esn model implementation with ones inputs and harmonic signal outputs
 
 # Dynamic Interpolation
 
